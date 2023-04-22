@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <title>Xaam</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="forms_container">
+      <div class="signin">
+        <img src="/views/logo.png" alt="" class="logo">
+        <form action="/login" class="signin" method="POST">
+          <h2 class="title">Sign-in</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input id="email" name="username"type="email" placeholder="Username" required >
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>Xaaam</h3>
+          <p>A new exam portal only for VIT students which enables them to take online exams with new features</p>
+        </div>
+        <img src="/views/login.jpeg" class="image">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
